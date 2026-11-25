@@ -3,7 +3,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const LINE =
-  "At 3 AM my keys remember what you bought at this hour last time, so they're staying in bed until sunrise.";
+  "Absolutely not: nothing good has ever been signed at 3 AM, not leases, not texts to your ex, and certainly not whatever $FROGLORD is, so ask me again after coffee.";
 
 const outDir = process.env.OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
